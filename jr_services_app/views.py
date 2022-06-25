@@ -5,7 +5,7 @@ from .models import *
 ## from flask import Flask, url_for, render_template, request, abort
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "home.html")
 
 def success(request):
     if 'user_id' not in request.session:
